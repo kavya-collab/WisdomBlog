@@ -5,7 +5,7 @@ VisualStudioVersion = 25.0.1700.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomBlog", "WisdomBlog\WisdomBlog.csproj", "{C5663F1B-CDDC-4E15-B2EE-A7668AF827C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomBog.API", "WisdomBog.API\WisdomBog.API.csproj", "{0C1425BA-EDC0-45EA-B9C7-AF5A0C444521}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomBlog.API", "WisdomBog.API\WisdomBlog.API.csproj", "{0C1425BA-EDC0-45EA-B9C7-AF5A0C444521}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomBlog.Models", "WisdomBlog.Models\WisdomBlog.Models.csproj", "{EE6EB2C9-C133-4F64-9AD6-160CA2686CEB}"
 EndProject

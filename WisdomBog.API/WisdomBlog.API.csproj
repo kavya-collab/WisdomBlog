@@ -12,8 +12,10 @@
 
   <ItemGroup>
     <None Remove="Authorization\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Authorization\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>
