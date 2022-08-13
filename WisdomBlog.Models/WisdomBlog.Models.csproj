@@ -4,4 +4,18 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="DBEntities\" />
+    <None Remove="Migrations\" />
+    <None Remove="RequestModels\" />
+    <None Remove="ResponseModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="DBEntities\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="RequestModels\" />
+    <Folder Include="ResponseModels\" />
+  </ItemGroup>
 </Project>
