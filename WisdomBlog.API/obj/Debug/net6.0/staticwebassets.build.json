@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aKwrsTvq+vaphCJaBJVyjwB0LOLAIHwXVEEsCJU1LOY=",
+  "Source": "WisdomBlog.API",
+  "BasePath": "_content/WisdomBlog.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

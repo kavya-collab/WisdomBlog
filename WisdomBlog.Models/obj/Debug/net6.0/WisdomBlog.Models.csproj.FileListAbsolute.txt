@@ -1,0 +1,14 @@
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/bin/Debug/net6.0/WisdomBlog.Models.deps.json
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/bin/Debug/net6.0/WisdomBlog.Models.runtimeconfig.json
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/bin/Debug/net6.0/WisdomBlog.Models.dll
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/bin/Debug/net6.0/WisdomBlog.Models.pdb
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.csproj.AssemblyReference.cache
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.AssemblyInfoInputs.cache
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.AssemblyInfo.cs
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.csproj.CoreCompileInputs.cache
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.dll
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/refint/WisdomBlog.Models.dll
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.pdb
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/WisdomBlog.Models.genruntimeconfig.cache
+/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/Debug/net6.0/ref/WisdomBlog.Models.dll

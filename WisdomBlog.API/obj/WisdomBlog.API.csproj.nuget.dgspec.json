@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.API/WisdomBlog.API.csproj": {}
+  },
+  "projects": {
+    "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.API/WisdomBlog.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.API/WisdomBlog.API.csproj",
+        "projectName": "WisdomBlog.API",
+        "projectPath": "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.API/WisdomBlog.API.csproj",
+        "packagesPath": "/Users/kavya/.nuget/packages/",
+        "outputPath": "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kavya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/WisdomBlog.Models.csproj": {
+                "projectPath": "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/WisdomBlog.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/WisdomBlog.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/WisdomBlog.Models.csproj",
+        "projectName": "WisdomBlog.Models",
+        "projectPath": "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/WisdomBlog.Models.csproj",
+        "packagesPath": "/Users/kavya/.nuget/packages/",
+        "outputPath": "/Users/kavya/Desktop/web/new/WisdomBlog/WisdomBlog.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kavya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
