@@ -1,0 +1,17 @@
+﻿@using WisdomBlog.Models.RequestModels
+@model WisdomBlog.Models.DBEntities.Item
+
+<div class="row" style="display:flex; justify-content:center; text-align:center">
+    <div class="row" style="width:30%; height:20%">
+        <img src="@FileLocation.RetriveFileFromFolder@Model.Image" class="img-thumbnail" asp-append-version="true" />
+    </div>
+    
+</div>
+<div class="row mt-3" style="text-align:center">
+    <b>@Model.Name</b>
+</div>
+<div class="row mt-3">
+    <div class="col-md-12">
+        @Model.Description
+    </div>
+</div>

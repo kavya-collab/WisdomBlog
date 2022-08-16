@@ -1,0 +1,81 @@
+﻿@model IEnumerable<WisdomBlog.Models.DBEntities.Item>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .img-fluid {
+        width: 100%;
+        max-height: 200px;
+        min-height: 200px;
+    }
+     /*.card {
+        width: 100%;
+        max-height: 200px;
+        min-height: 80px;
+    }*/
+</style>
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@
+
+<!--Main Navigation-->
+<!--Main layout-->
+<main class="my-5">
+    <div class="container">
+        <!--Section: Content-->
+        <section class="text-center">
+            <h4 class="mb-5"><strong>Latest posts</strong></h4>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-3 col-md-4 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="~/images/@item.Image" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Post title</h5>
+                                <p class="card-text">
+                                    @item.Name
+                                </p>
+                                <a asp-action="ReadContent" asp-route-id="@item.Id" class="btn btn-primary">Read</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </section>
+        <!--Section: Content-->
+        
+    </div>
+</main>
+<!--Main layout-->
+<!--Footer-->
+<footer class="bg-light text-lg-start">
+
+    <div class="text-center py-4 align-items-center">
+        <p>Follow wisdomblog on social media</p>
+        <a href="https://www.youtube.com/" class="btn btn-primary m-1" role="button"
+           rel="nofollow" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/wisdomBlog" class="btn btn-primary m-1" role="button" rel="nofollow"
+           target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/wisdomBlog" class="btn btn-primary m-1" role="button" rel="nofollow"
+           target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+</footer>
+<!--Footer-->
